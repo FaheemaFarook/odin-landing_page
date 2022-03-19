@@ -15,7 +15,7 @@ body {
     width: 100%;
     height: 10vh;
     position: fixed;
-    background: #1f2937;
+    background: #1c2431;
     top: 0%;
     padding: 12px;
     display: flex;
@@ -37,11 +37,61 @@ ul {
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 li:hover {
     background-color: black;
     border-radius: 10px;
     padding: 15px;
+}
+
+#hero {
+    width: 100%;
+    height: 80vh;
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-txt {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-txt {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.second-txt {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.image-holder {
+    background: rgb(120, 120, 121);
+    padding: 120px 150px;
+}
+
+.hero-txt button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #0747f7;
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+.hero-txt button:hover {
+    opacity: 1;
 }
