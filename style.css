@@ -96,6 +96,7 @@ li:hover {
 }
 
 .hero-txt button:hover {
+    padding: 12px;
     opacity: 1;
 }
 /* END HERO SECTION */
@@ -133,6 +134,12 @@ li:hover {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+}
+
+.items img {
+    padding: 15px;
+    border: 2px solid #0747f7;
+    border-radius: 5px;
 }
 
 .quote {
@@ -188,3 +195,16 @@ li:hover {
     color: #000000;
 }
 /* END MAIN CONTENT */
+
+/* START FOOTER */
+#footer {
+    margin-top: 60px;
+    background: #1f2937;
+    color: #f9faf8;
+}
+
+.footer-txt {
+    padding: 20px;
+    text-align: center;
+}
+/* END FOOTER */
