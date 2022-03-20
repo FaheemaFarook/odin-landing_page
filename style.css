@@ -151,7 +151,7 @@ li:hover {
     margin-top: 35px;
 }
 
-.action {
+.contact {
     background-color: #3882f6;
     border-radius: 10px;
     margin-top: 40px;
@@ -179,7 +179,7 @@ li:hover {
     font-size: 18px;
 }
 
-.action button {
+.contact button {
     margin-top: 10px;
     padding: 10px;
     border: 2px solid #ffffff;
@@ -190,7 +190,7 @@ li:hover {
     transition-duration: 0.4s;
 }
 
-.action button:hover {
+.contact button:hover {
     background-color: #ffffff;
     color: #000000;
 }
